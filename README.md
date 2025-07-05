@@ -3,6 +3,10 @@
 <h3 align="center">Aspiring Data Analyst</h3>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=13F700&center=true&vCenter=true&width=435&lines=Data+is+the+new+oil;Code+is+my+craft;Insights+drive+impact" alt="Typing SVG" />
+</p>
+
+<p align="center">
   <img src="https://github.com/KartikeySinghSingraur/KartikeySinghSingraur/blob/main/giphy.gif" alt="banner" width="700"/>
 </p>
 
@@ -80,10 +84,7 @@
 
 ---
 
-### 📈 GitHub Stats
 
-![KSS's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight)
 
 ### 📫 Connect with Me
 
@@ -100,6 +101,4 @@ If you enjoy my work, consider dropping a like or star! Your support keeps me mo
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=13F700&center=true&vCenter=true&width=435&lines=Data+is+the+new+oil;Code+is+my+craft;Insights+drive+impact" alt="Typing SVG" />
-</p>
+
