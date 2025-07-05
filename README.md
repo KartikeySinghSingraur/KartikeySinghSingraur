@@ -3,7 +3,7 @@
 <h3 align="center">Aspiring Data Analyst | Passionate about Entrepreneurship</h3>
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/b6/22/8e/b6228e2b9d6c99e2e2cfce93a8916486.gif" alt="banner" width="700"/>
+  <img src="https://github.com/KartikeySinghSingraur/KartikeySinghSingraur/blob/main/giphy.gif" alt="banner" width="700"/>
 </p>
 
 ---
