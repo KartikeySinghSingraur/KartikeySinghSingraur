@@ -1,4 +1,4 @@
-<h1 align="center">Hey fellas 👋, Welcome to the world of KSS! 🚀</h1>
+<h1 align="center">Hey fellas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, Welcome to the world of KSS! 🚀</h1>
 
 <h3 align="center">Aspiring Data Analyst</h3>
 
