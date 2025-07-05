@@ -1,29 +1,41 @@
-name: Generate Snake Contribution
+name: GitHub Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight
+    - cron: "0 0 * * *"  # runs daily at midnight UTC
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repo
+      # Step 1: Checkout your repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate snake animation
+      # Step 2: Generate Snake animation
+      - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
-          github_user_name: KartikeySinghSingraur
-          outputs: |
-            ./github-contribution-grid-snake.svg
+          github_user_name: KartikeySinghSingraur  # ✅ your username here
 
-      - name: Push SVG to output branch
-        uses: EndBug/add-and-commit@v9
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 3: Deploy to the output branch using PAT
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          author_name: GitHub Action
-          author_email: action@github.com
-          message: "generate github-contribution-grid-snake.svg"
-          add: "github-contribution-grid-snake.svg"
+          github_token: ${{ secrets.GH_PAT }}  # ✅ set this PAT in your repo secrets
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update snake animation [skip ci]"
