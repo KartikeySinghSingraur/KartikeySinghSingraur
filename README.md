@@ -93,13 +93,7 @@
 
 ---
 
-### 🐍 GitHub Contribution Snake
 
-
-![snake gif](https://github.com/KartikeySinghSingraur/KartikeySinghSingraur/blob/output/github-snake.svg)
-
-
----
 
 ### 📫 Connect with Me
 
